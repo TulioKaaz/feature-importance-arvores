@@ -2,8 +2,6 @@
 
 Prática do Bloco 4 da trilha de seleção de features (StatQuest + *Advances in Financial Machine Learning*, cap. 8): comparar os métodos de feature importance em modelos de árvore, MDI, permutation importance (treino vs. teste), os três rankings do XGBoost (`weight`, `gain`, `cover`) e SHAP (TreeSHAP), sobre um dataset simulado com armadilhas plantadas de propósito.
 
-Material de estudo: nota "Feature Importance (Árvores)", no vault pessoal (Obsidian), dentro de *Machine Learning - Seleção de Features*.
-
 Dataset de regressão simulado (renda mensal a partir de anos de experiência, educação e idade), com três armadilhas plantadas de propósito: ruído puro, uma categórica de alta cardinalidade aleatória (`codigo_agencia`) e uma feature duplicada de uma das fortes (`anos_experiencia_duplicada`). Modelo de árvore (XGBoost) treinado sobre todas as features, comparando MDI, permutation importance (treino vs. teste), os três rankings nativos do XGBoost (`weight`, `gain`, `cover`) e o ranking por média de |SHAP| (TreeSHAP).
 
 ## Estrutura
